@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservar Cita</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <h1 class="logo">Consultoría de Psicología</h1>
+      <nav class="navegacion">
+        <a href="#contacto" class="enlace-nav">Contacto</a>
+        <a href="index.html" class="btn-reservar">Inicio</a>
+      </nav>
+    </header>
+    <section class="reserva">
+      <div class="reserva-izquierda">
+        <h2>Pide una cita</h2>
+        <p>
+          Da la bienvenida a tus clientes y explica la misión de tu empresa.
+          Escribe una breve descripción del proceso de reserva de citas e
+          incluye otros datos que puedan ser relevantes.
+        </p>
+      </div>
+      <div class="reserva-derecha">
+        <div class="paso-reserva">
+          <h3>1. Elige la cita</h3>
+          <div class="opcion-servicio">
+            <p>
+              Servicio presencial <br />
+              <small>$$$$$</small>
+            </p>
+            <button class="btn-reserva">Haz una reserva</button>
+          </div>
+          <div class="opcion-servicio">
+            <p>
+              Servicio presencial avanzado<br />
+              <small>$$$$$</small>
+            </p>
+            <button class="btn-reserva">Haz una reserva</button>
+          </div>
+          <div class="opcion-servicio">
+            <p>
+              Servicio en línea <br />
+              <small>$$$$$</small>
+            </p>
+            <button class="btn-reserva">Haz una reserva</button>
+          </div>
+        </div>
+        <div class="paso-reserva">
+          <h3>2. Tus datos</h3>
+          <form class="formulario-reserva" action="#" method="post">
+            <div class="campo-formulario">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <div class="campo-formulario">
+              <label for="apellido">Apellido:</label>
+              <input type="text" id="apellido" name="apellido" required />
+            </div>
+            <div class="campo-formulario">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required />
+            </div>
+            <div class="campo-formulario">
+              <label for="numero">Número de Teléfono:</label>
+              <input type="tel" id="numero" name="numero" required />
+            </div>
+            <div class="campo-formulario">
+              <label for="motivo">Motivo de Consulta:</label>
+              <textarea id="motivo" name="motivo" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn-reserva">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
