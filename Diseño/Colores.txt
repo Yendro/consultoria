@@ -1,0 +1,5 @@
+Negro: #0b0728
+Azul: #0B0728
+Dorado: #BFA069
+Gris: #DFDFDF
+Blanco: #FFFFFF
