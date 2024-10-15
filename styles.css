@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: "Georgia", serif;
-  background-color: #336699;
+  font-family: "Manrope", sans-serif;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
@@ -10,12 +10,13 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2%;
-  background-color: #336699;
+  background-color: #0b0728;
+  border-bottom: 3mm solid #bfa069;
 }
 
 .logo {
   font-size: 150%;
-  color: #333333;
+  color: #bfa069;
   margin: 0;
 }
 
@@ -27,7 +28,7 @@ body {
 
 .enlace-nav {
   text-decoration: none;
-  background-color: #edd286;
+  background-color: #bfa069;
   color: #000000;
   padding: 7% 7%;
   border-radius: 20px;
@@ -44,7 +45,7 @@ body {
 }
 
 .hero {
-  background-image: url("header.jpg");
+  background-image: url("Imagenes/header.jpg");
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -53,27 +54,27 @@ body {
   justify-content: center;
   text-align: center;
   color: #ffffff;
-  margin: 0 2%;
-  border-radius: 10px;
-  margin-bottom: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .texto-hero h2 {
   font-size: 300%;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: #000000;
   padding: 1% 2%;
   border-radius: 10px;
 }
 
 .servicios {
-  background-color: #edd286;
+  background-color: #0b0728;
+  border-top: 3mm solid #bfa069;
   padding: 5% 2%;
   text-align: center;
 }
 
 .titulo-servicios {
   font-size: 250%;
-  color: #333333;
+  color: #ffffff;
   margin-bottom: 3%;
 }
 
@@ -85,13 +86,13 @@ body {
 }
 
 .servicio-item {
-  background-color: #ffffff;
+  background-color: #bfa069;
   border-radius: 10px;
   padding: 2%;
-  max-width: 25%;
+  max-width: 15%;
   width: 100%;
   text-align: left;
-  color: #333333;
+  color: #000000;
 }
 
 .imagen-servicio {
@@ -114,7 +115,7 @@ body {
   display: flex;
   gap: 5%;
   padding: 5% 2%;
-  background-color: #edd286;
+  background-color: #bfa069;
 }
 
 .reserva-izquierda {
@@ -186,7 +187,7 @@ body {
 
 .enlace-nav {
   text-decoration: none;
-  background-color: #edd286; /* Color amarillo */
+  background-color: #bfa069; /* Color amarillo */
   color: #000000;
   padding: 10% 10%;
   border-radius: 20px;
@@ -217,4 +218,15 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1em;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
 }
