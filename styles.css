@@ -48,7 +48,7 @@ body {
   background-image: url("Imagenes/header.jpg");
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,10 +65,13 @@ body {
   border-radius: 10px;
 }
 
+/* Seccion de servicios */
+
 .servicios {
   background-color: #0b0728;
   border-top: 3mm solid #bfa069;
-  padding: 5% 2%;
+  border-bottom: 3mm solid #bfa069;
+  padding: 8% 0% 10%;
   text-align: center;
 }
 
@@ -110,6 +113,8 @@ body {
 .servicio-item p {
   margin: 2% 0;
 }
+
+/* Formulario de reservas */
 
 .reserva {
   display: flex;
@@ -185,6 +190,25 @@ body {
   background-color: #444444;
 }
 
+/* Seccion de citas de calendly */
+.solicitar-citas {
+  background-color: #dfdfdf; /* Color dorado */
+  padding: 8% 0% 8%;
+  text-align: center;
+}
+
+.titulo-citas {
+  font-size: 150%;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.calendly-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Página de reserva*/
 .enlace-nav {
   text-decoration: none;
   background-color: #bfa069; /* Color amarillo */
@@ -220,6 +244,7 @@ body {
   font-size: 1em;
 }
 
+/* Animaciones */
 .hidden {
   opacity: 0;
   transform: translateY(20px);
