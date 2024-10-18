@@ -45,7 +45,7 @@ body {
 }
 
 .hero {
-  background-image: url("Imagenes/header.jpg");
+  background-image: url("../imagenes/header.jpg");
   background-size: cover;
   background-position: center;
   height: 80vh;
